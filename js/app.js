@@ -7,13 +7,13 @@ angular.module('captions', [
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/:person', {
-    templateUrl: 'view.html',
+    templateUrl: 'captions/view.html',
     controller: 'PersonCtrl'
   });
 }])
 
  .controller('PersonCtrl', function($scope, $routeParams) {
-     $scope.image = 'img/'+$routeParams.person+'.jpg';
+     $scope.image = 'captions/img/'+$routeParams.person+'.jpg';
      $scope.caption = $routeParams.caption;
      console.log($routeParams)
  })
