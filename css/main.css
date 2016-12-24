@@ -1,0 +1,25 @@
+.bg {
+  max-width: 100%;
+  height: auto;
+}
+.speech-bubble {
+    background-color: #f8f8f8;
+    border: 1px solid #c8c8c8;
+    border-radius: 5px;
+    text-align: left;
+    padding: 20px;
+    margin-right: 10%;
+    position: absolute;
+    left: 60%;
+    top: 30%;
+}
+.speech-bubble .arrow {
+    border-style: solid;
+    position: absolute;
+}
+ 
+.bottom {
+    border-color: transparent #c8c8c8  transparent transparent;
+    border-width: 75px 75px 0px 75px;
+    left: -150px;
+}
