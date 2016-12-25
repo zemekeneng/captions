@@ -13,7 +13,7 @@ angular.module('captions', [
 }])
 
  .controller('PersonCtrl', function($scope, $routeParams) {
-     $scope.image = 'captions/img/'+$routeParams.person+'.jpg';
+     $scope.image = $routeParams.person;
      $scope.caption = $routeParams.caption;
      console.log($routeParams)
  })

@@ -7,11 +7,12 @@
     border: 1px solid #c8c8c8;
     border-radius: 5px;
     text-align: left;
-    padding: 20px;
+    padding: 1vw;
     margin-right: 10%;
     position: absolute;
     left: 60%;
-    top: 30%;
+    top: 6vw;
+    font-size: 3vw;
 }
 .speech-bubble .arrow {
     border-style: solid;
@@ -20,6 +21,6 @@
  
 .bottom {
     border-color: transparent #c8c8c8  transparent transparent;
-    border-width: 75px 75px 0px 75px;
-    left: -150px;
+    border-width: 6vw 6vw 0px 6vw;
+    left: -12vw;
 }
